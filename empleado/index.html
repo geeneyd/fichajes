@@ -62,17 +62,24 @@
         <h2 class="text-center mb-4">Fichar</h2>
 
         <!-- Botón para fichar entrada -->
-        <button type="button" class="btn btn-primary">
+        <button id="btnEntrada" type="button" class="btn btn-primary">
             <i class="bi bi-box-arrow-in-up"></i> Entrada
         </button>
 
         <!-- Botón para fichar salida -->
-        <button type="button" class="btn btn-secondary">
+        <button id="btnSalida" type="button" class="btn btn-secondary" disabled>
             <i class="bi bi-box-arrow-down"></i> Salida
         </button>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Script personalizado -->
+    <script src="../js/empleado/fichar.js"></script>
+    <script src="../js/cerrarsesion.js"></script>
 </body>
 </html>
